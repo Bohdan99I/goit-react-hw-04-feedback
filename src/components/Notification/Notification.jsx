@@ -10,15 +10,15 @@ import PropTypes from 'prop-types';
 };*/
 
 export const Notification = ({ message }) => {
-    return (
-        <>
-            {message !== "" && (
-                <span style={{ fontSize: "18px", fontWeight: "500"}}>{message}</span>
-            )}
-        </>
-    );
+  return (
+    <>
+      {message !== '' && (
+        <span style={{ fontSize: '18px', fontWeight: '500' }}>{message}</span>
+      )}
+    </>
+  );
 };
 
 Notification.propTypes = {
-    message: PropTypes.string.isRequired,
+  message: PropTypes.string.isRequired,
 };
